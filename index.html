@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Oscar</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100vw;
+      box-sizing: border-box;
+    }
+    .pdf-container {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      position: fixed;
+      top: 0; left: 0;
+      background: #222;
+    }
+    .pdf-viewer {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="pdf-container">
+    <iframe class="pdf-viewer"
+      src="https://drive.google.com/file/d/1dcQKWi4zdo0nizvj6i5-ZFkfhG6IycJp/preview"> 
+    </iframe>
+  </div>
+      <a href="https://drive.google.com/uc?export=download&id=1dcQKWi4zdo0nizvj6i5-ZFkfhG6IycJp"
+         target="_blank"
+         style="position:fixed;right:24px;bottom:24px;z-index:1000;padding:12px 24px;background:#1976D2;color:white;font-size:16px;border-radius:4px;text-decoration:none;">
+        Download PDF
+      </a>
+</body>
+</html>
